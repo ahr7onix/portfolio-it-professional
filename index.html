@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isac.Dev | Engenheiro de Soluções Digitais</title>
+    <meta name="description" content="Portfolio de Isac, Engenheiro de Soluções Digitais especializado em sistemas robustos e design de elite.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons for premium feel -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav class="navbar">
+        <div class="nav-logo">ISAC<span>.DEV</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Stack</a></li>
+            <li><a href="#projects">Portfólio</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta">Contratar</a>
+    </nav>
+
+    <header id="home" class="hero">
+        <canvas id="bg-canvas"></canvas>
+        <div class="hero-content">
+            <span class="hero-tag">Disponível para novos projetos</span>
+            <h1 class="hero-title">Engenheiro de <span>Software</span> & Soluções</h1>
+            <p class="hero-desc">Desenvolvedor focado em criar sistemas modernos, escaláveis e com design premium.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">Ver Projetos</a>
+                <a href="#about" class="btn-outline">Saber Mais</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="reveal-section container">
+        <div class="section-head">
+            <h2>Sobre Mim</h2>
+        </div>
+        <div class="terminal-card">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="terminal-title">isac@dev-machine: ~</div>
+            </div>
+            <div class="terminal-body" id="terminal-output">
+                <p class="t-res">> system.init() ... DONE</p>
+                <p class="t-res">> load --profile isac</p>
+                <div id="terminal-content">
+                    <p class="t-res">Sou um desenvolvedor focado em performance e estética. Minha missão é entregar software que não apenas funciona, mas impressiona.</p>
+                </div>
+                <div class="t-line">
+                    <span class="t-prompt">isac@dev-machine:~$</span>
+                    <input type="text" id="terminal-input" autofocus autocomplete="off">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="reveal-section container">
+        <div class="section-head">
+            <h2>Habilidades</h2>
+        </div>
+        <div class="skill-grid">
+            <div class="skill-card reveal-item">
+                <div class="skill-header">
+                    <div class="skill-info">
+                        <h3>Arquitetura</h3>
+                    </div>
+                    <span class="skill-percent">95%</span>
+                </div>
+                <div class="skill-bar-track">
+                    <div class="skill-bar-fill" data-percent="95"></div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Microserviços</span>
+                    <span class="skill-tag">Cloud Native</span>
+                    <span class="skill-tag">Scalability</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal-item">
+                <div class="skill-header">
+                    <div class="skill-info">
+                        <h3>Design UX/UI</h3>
+                    </div>
+                    <span class="skill-percent">88%</span>
+                </div>
+                <div class="skill-bar-track">
+                    <div class="skill-bar-fill" data-percent="88" style="--primary: #6366f1; --secondary: #a855f7;"></div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Glassmorphism</span>
+                    <span class="skill-tag">Prototyping</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal-item">
+                <div class="skill-header">
+                    <div class="skill-info">
+                        <h3>Segurança</h3>
+                    </div>
+                    <span class="skill-percent">92%</span>
+                </div>
+                <div class="skill-bar-track">
+                    <div class="skill-bar-fill" data-percent="92" style="--primary: #10b981; --secondary: #34d399;"></div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Encryption</span>
+                    <span class="skill-tag">Protocols</span>
+                    <span class="skill-tag">Compliance</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="reveal-section container">
+        <div class="section-head">
+            <h2>Projetos</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="fintech">Fintech</button>
+                <button class="filter-btn" data-filter="ai">IA / ML</button>
+                <button class="filter-btn" data-filter="systems">Sistemas</button>
+            </div>
+        </div>
+        <div class="project-grid">
+            <div class="project-card" data-category="fintech" data-complexity="94" data-uptime="99.9" data-impact="CRITICAL">
+                <div class="project-img">
+                    <img src="project1.png" alt="Nexus Payment Gateway">
+                    <div class="project-hud">
+                        <div class="hud-line"></div>
+                        <div class="hud-stats">
+                            <span>UPTIME: <b class="glow-text">99.9%</b></span>
+                            <span>IMPACT: <b class="glow-text">HIGH</b></span>
+                        </div>
+                    </div>
+                    <div class="glitch-overlay"></div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">Fintech</span>
+                    <h3>Nexus Payment</h3>
+                    <p>Processamento de alta frequência com 99.9% de uptime real.</p>
+                    <a href="#" class="btn-outline">Ver Detalhes</a>
+                </div>
+            </div>
+            <div class="project-card" data-category="ai" data-complexity="98" data-uptime="98.5" data-impact="HIGH">
+                <div class="project-img">
+                    <img src="project2.png" alt="Cognitive OS">
+                    <div class="project-hud">
+                        <div class="hud-line"></div>
+                        <div class="hud-stats">
+                            <span>MODEL: <b class="glow-text">GPT-4.0</b></span>
+                            <span>LATENCY: <b class="glow-text">24ms</b></span>
+                        </div>
+                    </div>
+                    <div class="glitch-overlay"></div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">AI / ML</span>
+                    <h3>Cognitive OS</h3>
+                    <p>Interface de IA generativa para automação de processos críticos.</p>
+                    <a href="#" class="btn-outline">Ver Detalhes</a>
+                </div>
+            </div>
+            <div class="project-card" data-category="systems" data-complexity="88" data-uptime="100" data-impact="MEDIUM">
+                <div class="project-img">
+                    <img src="hero.png" alt="Cloud Infrastructure Monitor">
+                    <div class="project-hud">
+                        <div class="hud-line"></div>
+                        <div class="hud-stats">
+                            <span>NODES: <b class="glow-text">1,240+</b></span>
+                            <span>BACKUP: <b class="glow-text">ACTIVE</b></span>
+                        </div>
+                    </div>
+                    <div class="glitch-overlay"></div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">Systems</span>
+                    <h3>Atlas Cloud</h3>
+                    <p>Monitoramento em tempo real de infraestruturas multi-cloud.</p>
+                    <a href="#" class="btn-outline">Ver Detalhes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container reveal-section">
+            <h2>Vamos elevar seu projeto?</h2>
+            <div class="footer-social">
+                <a href="mailto:contato@isac.dev"><i data-lucide="mail"></i></a>
+            </div>
+            <a href="mailto:contato@isac.dev" class="btn-primary">Iniciar Conversa</a>
+            <p class="footer-copyright">© 2024 Isac.Dev | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
