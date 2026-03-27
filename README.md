@@ -1,26 +1,26 @@
-# Elite Portfolio: Software Engineer & Solutions
+# Portfolio de Elite: Engenheiro de Software & Soluções
 
-A premium, interactive digital portfolio built for high-end technical engineering profiles. This project features a "Cyber-Elite" design system with glassmorphism, neon accents, and a reactive HUD-style interface.
+Um portfólio digital premium e interativo, construído para perfis de engenharia técnica de alto nível. Este projeto apresenta um sistema de design "Cyber-Elite" com glassmorphism, acentos neon e uma interface de estilo HUD reativa.
 
-## ✨ Key Features
+## ✨ Recursos Principais
 
-- **Interactive Neural Network**: Canvas-based particle background that reacts to mouse movement.
-- **Project Command Center**: 3D-tilting cards with holographic HUD overlays.
-- **Technical Mastery HUD**: Animated skill bars with neon loading effects and live counters.
-- **Functional CLI Terminal**: A fully operational command-line interface for deep system exploration.
-- **Glassmorphic Design**: A cutting-edge UI using modern CSS variables and frosted-glass effects.
+- **Rede Neural Interativa**: Fundo de partículas baseado em Canvas que reage ao movimento do mouse.
+- **Centro de Comando de Projetos**: Cards com inclinação 3D e sobreposições de HUD holográfico.
+- **HUD de Maestria Técnica**: Barras de habilidades animadas com efeitos de carregamento neon e contadores em tempo real.
+- **Terminal CLI Funcional**: Uma interface de linha de comando totalmente operacional para exploração profunda do sistema.
+- **Design Glassmorphic**: Uma interface de usuário de última geração usando variáveis CSS modernas e efeitos de vidro fosco.
 
-## 🚀 Deployment
+## 🚀 Deploy
 
-This site is automatically deployed to **GitHub Pages** via GitHub Actions.
+Este site é implantado automaticamente no **GitHub Pages** via GitHub Actions.
 
 ## 🛠️ Stack
 
-- **Structure**: HTML5 Semantic Markup
-- **Styling**: Vanilla CSS3 (Custom Design System)
-- **Logic**: ES6+ JavaScript
-- **Icons**: Lucide Icons
-- **Fonts**: Outfit & Fira Code
+- **Estrutura**: Marcação Semântica HTML5
+- **Estilização**: Vanilla CSS3 (Sistema de Design Personalizado)
+- **Lógica**: JavaScript ES6+
+- **Ícones**: Lucide Icons
+- **Fontes**: Outfit & Fira Code
 
 ---
-© 2024 Isac.Dev | Elite Digital Engineering
+© 2024 Isac.Dev | Engenharia Digital de Elite

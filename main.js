@@ -174,11 +174,11 @@ function initTerminal() {
     const output = document.getElementById('terminal-content');
 
     const commands = {
-        help: "Comandos disponíveis: about, skills, projects, contact, clear",
-        about: "Sou um Engenheiro de Soluções focado em criar experiências digitais de alto impacto.",
-        skills: "Stack: Architecture, UX/UI Design, Security, Cloud Systems.",
-        projects: "Confira meu 'Showcase de Elite' abaixo na seção de portfólio.",
-        contact: "Email: contato@isac.dev | LinkedIn: /in/isacdev",
+        help: "Comandos disponíveis: sobre, stack, projetos, contato, clear",
+        sobre: "Sou um Engenheiro de Software focado em criar sistemas modernos e escaláveis.",
+        stack: "Stack: Arquitetura, Design UX/UI, Segurança, Sistemas Cloud.",
+        projetos: "Confira meu portfólio abaixo na seção de projetos em destaque.",
+        contato: "Email: contato@isac.dev | LinkedIn: /in/isacdev",
     };
 
     input.addEventListener('keydown', (e) => {
